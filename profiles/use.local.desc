@@ -1,0 +1,13 @@
+# This file is deprecated as per GLEP 56 in favor of metadata.xml.
+# Please add your descriptions to your package's metadata.xml ONLY.
+# * generated automatically using pmaint *
+
+app-misc/clamav-realtime:X gtk - Default X notification dependencies
+media-plugins/vdr-dvbapi:dvbcsa - use media-libs/libdvbcsa free implementation of the DVB Common Scrambling Algorithm
+sci-ml/ollama-bin:cuda - Support for Nvidia CUDA compatible cards
+sci-ml/ollama-bin:rocm - Support for AMD ROCm compatible cards
+sci-ml/ollama-bin:systemd - Include Ollama systemd service
+x11-libs/primus_vk:debug - Enable primus_vk dialog debug tool
+x11-libs/primus_vk:multilib - Build with multilib x86_32/x86_64 abi(s)
+x11-misc/cairo-dock:desktop_manager - Add support for enable-desktop-manager compilation flag.
+x11-misc/cairo-dock:gtk3 - Link against version 3 of the GIMP Toolkit (x11-libs/gtk+).
