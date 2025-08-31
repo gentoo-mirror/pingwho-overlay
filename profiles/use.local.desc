@@ -7,6 +7,10 @@ media-plugins/vdr-dvbapi:dvbcsa - use media-libs/libdvbcsa free implementation o
 sci-ml/ollama-bin:cuda - Support for Nvidia CUDA compatible cards
 sci-ml/ollama-bin:rocm - Support for AMD ROCm compatible cards
 sci-ml/ollama-bin:systemd - Include Ollama systemd service
+sci-ml/tensorzero:client - Support for Python client and dependencies
+sci-ml/tensorzero:examples - Add examples for TensorZero App
+sci-ml/tensorzero:gateway - Include functional Gateway service
+sci-ml/tensorzero:systemd - Include systemd service
 x11-libs/primus_vk:debug - Enable primus_vk dialog debug tool
 x11-libs/primus_vk:multilib - Build with multilib x86_32/x86_64 abi(s)
 x11-misc/cairo-dock:desktop_manager - Add support for enable-desktop-manager compilation flag.
