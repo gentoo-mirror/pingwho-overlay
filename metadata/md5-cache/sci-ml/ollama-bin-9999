@@ -11,4 +11,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=amd64? ( https://ollama.com/download/ollama-linux-amd64.tgz -> ollama-linux-amd64-latest.tgz ) rocm? ( https://ollama.com/download/ollama-linux-amd64-rocm.tgz -> ollama-linux-amd64-rocm-latest.tgz ) arm64? ( https://ollama.com/download/ollama-linux-arm64.tgz -> ollama-linux-arm64-latest.tgz )
 _eclasses_=check-reqs	2a9731073c152554078a9a8df8fc0f1b	toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	systemd	a964c0cbe818b5729da1dbfcee5be861
-_md5_=b86f20383ca6ff15acaa23a0a18cc393
+_md5_=fac73a93817930c4e03e28936358d855
