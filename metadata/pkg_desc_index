@@ -6,7 +6,7 @@ media-plugins/kodi-pvr-freebox 21.0.0 22.2.1 9999: Kodi PVR addon Freebox TV
 media-plugins/kodi-pvr-vdr-vnsi 21.1.3 22.2.3 9999: Kodi PVR addon VNSI
 media-plugins/vdr-dvbapi 2.2.6: VDR Plugin: allows connect VDR to OScam
 media-plugins/vdr-vnsiserver 1.8.0-r3: VDR Plugin: VNSI Streamserver Plugin (FernetMenta branch)
-sci-ml/ollama-bin 0.11.8 9999: Local runner for LLMs
+sci-ml/ollama-bin 0.11.10 9999: Local runner for LLMs
 sci-ml/tensorzero 2025.7.5 2025.8.5 9999: TensorZero is an open-source stack for industrial-grade LLM applications
 x11-libs/primus_vk 1.6.4-r6 9999: Vulkan GPU-offloading layer
 x11-misc/cairo-dock 3.5.1: Cairo-dock is a fast, responsive, Mac OS X-like dock.
