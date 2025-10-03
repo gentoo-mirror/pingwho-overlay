@@ -1,0 +1,16 @@
+BDEPEND=virtual/pkgconfig
+DEFINED_PHASES=install postinst setup
+DEPEND=client? ( dev-python/pip ) gateway? ( app-containers/docker app-containers/docker-buildx app-containers/docker-compose:2 )
+DESCRIPTION=TensorZero is an open-source stack for industrial-grade LLM applications
+EAPI=8
+HOMEPAGE=https://www.tensorzero.com/
+INHERIT=linux-info systemd
+IUSE=client examples +gateway systemd
+KEYWORDS=~amd64
+LICENSE=Apache-2.0
+RDEPEND=client? ( dev-python/pip ) gateway? ( app-containers/docker app-containers/docker-buildx app-containers/docker-compose:2 )
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/tensorzero/tensorzero/archive/refs/tags/2025.10.0.tar.gz -> tensorzero-2025.10.0.tar.gz
+_eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	linux-info	efd923656513c879204fec6638eadee5	systemd	a964c0cbe818b5729da1dbfcee5be861
+_md5_=698354a3afc205574b85944512da5271
